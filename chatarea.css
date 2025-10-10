@@ -169,7 +169,7 @@ html.theme-light .wrapper_f7ecac {
 }
 
 .typing_b88801 strong:last-of-type::after {
-    content: var(--chillax-input-typing-indicator-many-person);
+    content: var(--kilgamer-input-typing-indicator-many-person);
     color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
     margin-top: -5px;
@@ -177,7 +177,7 @@ html.theme-light .wrapper_f7ecac {
 }
 
 .typing_b88801 strong:only-of-type::after {
-    content: var(--chillax-input-typing-indicator-one-person);
+    content: var(--kilgamer-input-typing-indicator-one-person);
     color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
     margin-top: -5px;
@@ -234,7 +234,7 @@ html.theme-light .scrollableContainer__74017:focus-within {
 }
 
 .placeholder__1b31f::before {
-    content: var(--chillax-input-field);
+    content: var(--kilgamer-input-field);
     font-family: "Poppins";
     font-size: 13px;
     visibility: visible !important;
@@ -250,7 +250,7 @@ html.theme-light .placeholder__1b31f::before {
 
 /* Change the message in the messagebox when you're restricted from sending messages in that channel. */
 .innerDisabled__74017 .placeholder__1b31f::before {
-    content: var(--chillax-input-field-locked) !important;
+    content: var(--kilgamer-input-field-locked) !important;
 }
 
 /* Fix slight scroll when text box is empty */

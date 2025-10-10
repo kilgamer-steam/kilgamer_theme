@@ -2144,12 +2144,12 @@ button {
 }
 
 /*custom kilgamer theme card*/
-_kilgamer_-card .bd-name {
+#_kilgamer_-card .bd-name {
     font-size: 100px;
     text-align: left;
 }
 
-_kilgamer_-card .bd-name::after {
+#_kilgamer_-card .bd-name::after {
     font-size: 20px;
     content: "activated";
     display: block;
@@ -2157,36 +2157,36 @@ _kilgamer_-card .bd-name::after {
     margin-left: 15px;
 }
 
-_kilgamer_-card .bd-meta {
+#_kilgamer_-card .bd-meta {
     margin-left: 15px;
     bottom: 25px;
     color: rgb(226, 226, 226);
 }
 
-_kilgamer_-card {
+#_kilgamer_-card {
     border: 2px solid var(--accentcolorV2);
     box-shadow: 0 0 5px var(--accentcolorV2);
 }
 
-_kilgamer_-card .bd-addon-header {
+#_kilgamer_-card .bd-addon-header {
     border-bottom: 2px solid var(--accentcolorV2);
     box-shadow: 0 0 5px var(--accentcolorV2);
 }
 
-_kilgamer_-card > *:not(#a#B) {
+#_kilgamer_-card > *:not(#a#B) {
     background: rgba(var(--accentcolor), .2) !important;
 }
 
-_kilgamer_-card .bd-description {
+#_kilgamer_-card .bd-description {
     display: none;
 }
 
-_kilgamer_-card .bd-name {
+#_kilgamer_-card .bd-name {
     font-size: 70px;
     text-align: left;
 }
 
-_kilgamer_-card .bd-name::after {
+#_kilgamer_-card .bd-name::after {
     font-size: 20px;
     content: "activated";
     display: block;
@@ -2194,16 +2194,16 @@ _kilgamer_-card .bd-name::after {
     margin-left: 10px;
 }
 
-_kilgamer_-card .bd-meta {
+#_kilgamer_-card .bd-meta {
     margin-left: -50px;
     bottom: 25px;
 }
 
-html.theme-dark _kilgamer_-card .bd-meta {
+html.theme-dark #_kilgamer_-card .bd-meta {
     color: rgb(226, 226, 226);
 }
 
-html.theme-light _kilgamer_-card .bd-meta {
+html.theme-light #_kilgamer_-card .bd-meta {
     color: rgb(0, 0, 0);
 }
 

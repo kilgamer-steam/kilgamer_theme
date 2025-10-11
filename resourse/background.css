@@ -53,12 +53,10 @@
     border-color: transparent !important;
 }
 
-/*transparent scrollbar*/
-::-webkit-scrollbar,
-::-webkit-scrollbar-track,
-::-webkit-scrollbar-track-piece {
-    border-color: transparent !important;
-    background: transparent !important;
+::-webkit-scrollbar-thumb {
+    border: none !important;
+    background-clip: content-box !important;
+    background: var(--kilgamer-scroller-color) !important;
 }
 
 /*transparent call background*/

@@ -3,8 +3,8 @@
 ---
 
 ## 🚀 Download / Завантаження
-Click <a href="https://raw.githubusercontent.com/kilgamer-steam/kilgamer_theme/refs/heads/main/kilgamer.theme.css" download="kilgamer.theme.css">here</a> to download the theme file.
-Натисніть [тут](here), щоб завантажити файл теми.
+Download <a href="https://github.com/kilgamer-steam/kilgamer_theme/blob/main/kilgamer.theme.css">this</a> file.
+Завантажте <a href="https://github.com/kilgamer-steam/kilgamer_theme/blob/main/kilgamer.theme.css">цей</a> файл.
 
 ---
 

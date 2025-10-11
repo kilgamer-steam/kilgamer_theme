@@ -61,12 +61,6 @@
     background: transparent !important;
 }
 
-::-webkit-scrollbar-thumb {
-    border: none !important;
-    background-clip: content-box !important;
-    background: var(--kilgamer-scroller-color) !important;
-}
-
 /*transparent call background*/
 .wrapper_cb9592,
 .minimum_cb9592,

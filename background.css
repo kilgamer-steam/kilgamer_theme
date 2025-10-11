@@ -1846,8 +1846,8 @@ html.theme-light .button__02a39 {
 
 /*edited version of bd cards in plugins and themes*/
 .bd-addon-card-disabled {
-    border: 2px solid #ff6f6f;
-    box-shadow: 0 0 5px #f04747;
+    border: 2px solid #0026ff;
+    box-shadow: 0 0 5px #04248b;
 }
 
 .bd-addon-card-disabled > *:not(#a#B) {

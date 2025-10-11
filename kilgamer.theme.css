@@ -7,8 +7,25 @@
  * @updateUrl https://kilgamer-steam.github.io/kilgamer_theme/kilgamer.theme.css
  * @source https://github.com/kilgamer-steam/kilgamer_theme
 */
-
-@import url('https://kilgamer-steam.github.io/kilgamer_theme/code/kilgamer-component.css');
+/*addon*/
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/addon/accauntdetail.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/addon/settingsedited.css");
+/*code*/
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/activitistatus.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/background.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/chanelheader.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/chatarea.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/colorlink.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/customico.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/embeds.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/emoji.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/frendwiew.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/googlefonts.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/microsoft.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/onlyavatar.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/setingico.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/windowbutons.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/userarea.css");
 :root {
     /*background image*/ /*(replace the link to use)*/
     --background-image: var(--wallpaper);

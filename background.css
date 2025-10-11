@@ -2143,7 +2143,7 @@ button {
     opacity: 0 !important;
 }
 
-/*custom kilgamer theme card*/
+/*custom theme card*/
 #_kilgamer_-card .bd-name {
     font-size: 100px;
     text-align: left;
@@ -2174,7 +2174,7 @@ button {
 }
 
 #_kilgamer_-card > *:not(#a#B) {
-    background: rgba(var(--accentcolor), .2) !important;
+    background: rgba(18, 180, 180, 0.363) !important;
 }
 
 #_kilgamer_-card .bd-description {

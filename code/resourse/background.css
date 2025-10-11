@@ -2130,12 +2130,12 @@ button {
 }
 
 /*custom theme card*/
-#_kilgamer_-card .bd-name {
+#kilgamer-card .bd-name {
     font-size: 100px;
     text-align: left;
 }
 
-#_kilgamer_-card .bd-name::after {
+#kilgamer-card .bd-name::after {
     font-size: 20px;
     content: "activated";
     display: block;
@@ -2143,36 +2143,36 @@ button {
     margin-left: 15px;
 }
 
-#_kilgamer_-card .bd-meta {
+#kilgamer-card .bd-meta {
     margin-left: 15px;
     bottom: 25px;
     color: rgb(226, 226, 226);
 }
 
-#_kilgamer_-card {
+#kilgamer-card {
     border: 2px solid var(--accentcolorV2);
     box-shadow: 0 0 5px var(--accentcolorV2);
 }
 
-#_kilgamer_-card .bd-addon-header {
+#kilgamer-card .bd-addon-header {
     border-bottom: 2px solid var(--accentcolorV2);
     box-shadow: 0 0 5px var(--accentcolorV2);
 }
 
-#_kilgamer_-card > *:not(#a#B) {
+#kilgamer-card > *:not(#a#B) {
     background: rgba(18, 180, 180, 0.363) !important;
 }
 
-#_kilgamer_-card .bd-description {
+#kilgamer-card .bd-description {
     display: none;
 }
 
-#_kilgamer_-card .bd-name {
+#kilgamer-card .bd-name {
     font-size: 70px;
     text-align: left;
 }
 
-#_kilgamer_-card .bd-name::after {
+#kilgamer-card .bd-name::after {
     font-size: 20px;
     content: "activated";
     display: block;
@@ -2180,16 +2180,16 @@ button {
     margin-left: 10px;
 }
 
-#_kilgamer_-card .bd-meta {
+#kilgamer-card .bd-meta {
     margin-left: -50px;
     bottom: 25px;
 }
 
-html.theme-dark #_kilgamer_-card .bd-meta {
+html.theme-dark #kilgamer-card .bd-meta {
     color: rgb(226, 226, 226);
 }
 
-html.theme-light #_kilgamer_-card .bd-meta {
+html.theme-light #kilgamer-card .bd-meta {
     color: rgb(0, 0, 0);
 }
 

@@ -10,7 +10,7 @@
 /* Прозорий фон для панелі користувача */
 html.theme-dark .panels_c48ade,
 html.theme-light .panels_c48ade {
-    background: rgba(0, 0, 0, 0.25) !important; /* напівпрозорий чорний шар */
+    background: var(--userarea-visible) !important; /* напівпрозорий чорний шар */
     box-shadow: none !important;
     border: none !important;
 }
@@ -18,7 +18,7 @@ html.theme-light .panels_c48ade {
 /* Прозорий фон Spotify */
 html.theme-dark #vc-spotify-player,
 html.theme-light #vc-spotify-player {
-    background: rgba(0, 0, 0, 0.25) !important;
+    background: var(--userarea-visible) !important;
     box-shadow: none !important;
     border: none !important;
 }

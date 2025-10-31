@@ -20,27 +20,15 @@
 @import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/googlefonts.css");
 @import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/onlyavatar.css");
 @import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/windowbutons.css");
-/* 
- * =========================================
- * Created using Wubzy.xyz's theme generator
- * Questions about the theme or generator? Bugs or suggestions?
- * Join NotAnotherAnimeTheme's support server at https://discord.gg/FdZhbjY
- * Feedback is always welcome!
- * 
- * Hope you like your theme! ^^
- * =========================================
- */
-
-/*Generated at Fri, 31 Oct 2025 06:52:57 GMT -> Generator version Beta - 1.1.3*/
 
 :root {
 
   /*[MAIN THEME SETTINGS]*/
   /*Some important settings that will change the majority of your client.*/
-  --theme-background-image: url(https://3dporn.com.es/sheetchi/2025/08/Viessa-Gley-Ines-Luna-Hailey-Bunny-Serena-Freyna-and-Valby.jpeg); /*The main image over your whole Discord client*/
+  --theme-background-image: url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/background.jpeg"); /*The main image over your whole Discord client*/
   --main-theme-color: #; /*The default theme color*/
   --theme-transparency: rgba(0, 0, 0, 0.4); /*The mask that applies over the background*/
-  --home-icon-image: url(https://i.imgur.com/63g6Em8.jpg); /*Your friends icon*/
+  --home-icon-image: url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/discord_neko.jpg"); /*Your friends icon*/
   --home-icon-image-position: center center;
   --home-icon-image-zoom: 100%;
 

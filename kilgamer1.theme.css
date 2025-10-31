@@ -1,0 +1,148 @@
+/**
+ * @name kilgamer
+ * @author _kilgamer_
+ * @authorLink https://steamcommunity.com/id/_kilgamer_/
+ * @version 1.3.8
+ * @description The theme where calm meets customization.
+ * @updateUrl https://kilgamer-steam.github.io/kilgamer_theme/kilgamer.theme.css
+ * @source https://github.com/kilgamer-steam/kilgamer_theme
+*/
+/*addon*/
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/addon/accauntdetail.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/addon/settingsedited.css");
+/*code*/
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/activitistatus.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/background.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/chanelheader.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/chatarea.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/colorlink.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/customico.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/embeds.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/emoji.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/frendwiew.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/googlefonts.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/microsoft.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/onlyavatar.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/setingico.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/windowbutons.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/userarea.css");
+:root {
+    /*background image*/ /*(replace the link to use)*/
+    --background-image: var(--wallpaper);
+    --bg-opacity: 100%;
+    /*bg dev suggestions*/
+    --wallpaper: url("https://lh3.googleusercontent.com/sitesv/AICyYdY6xj-W9iD-ais-5M9QFRV0q1qyuhbJBIsaOtZZtX2KZX3gUTGU1HYsq8sfBS21Hz9trr1dvOxu2PLxbUPrs5SZI2HyNXUWUedQFyCBKgGsCKjkQuD0z276usozXhVqLfiBKElbRewtPkwp8EyNglnsPlve4vZGHH4UL1RXmpZQEbpwU_Zl4nEQnMmNQelUIwaM6mwwuPf1rRV_wdwedFr9nQZv-5gPrgBO=w1280");
+    /*modern background selection*/
+    --modern-dark-bg: url("https://lh3.googleusercontent.com/sitesv/AICyYdY6xj-W9iD-ais-5M9QFRV0q1qyuhbJBIsaOtZZtX2KZX3gUTGU1HYsq8sfBS21Hz9trr1dvOxu2PLxbUPrs5SZI2HyNXUWUedQFyCBKgGsCKjkQuD0z276usozXhVqLfiBKElbRewtPkwp8EyNglnsPlve4vZGHH4UL1RXmpZQEbpwU_Zl4nEQnMmNQelUIwaM6mwwuPf1rRV_wdwedFr9nQZv-5gPrgBO=w1280");
+    --modern-light-bg: url("https://lh3.googleusercontent.com/sitesv/AICyYdY6xj-W9iD-ais-5M9QFRV0q1qyuhbJBIsaOtZZtX2KZX3gUTGU1HYsq8sfBS21Hz9trr1dvOxu2PLxbUPrs5SZI2HyNXUWUedQFyCBKgGsCKjkQuD0z276usozXhVqLfiBKElbRewtPkwp8EyNglnsPlve4vZGHH4UL1RXmpZQEbpwU_Zl4nEQnMmNQelUIwaM6mwwuPf1rRV_wdwedFr9nQZv-5gPrgBO=w1280");
+    --userarea-visible: rgba(0, 0, 0, 0.15);
+}
+
+/*window*/ /*dark mode*/
+:root.theme-dark {
+    --window-margin: 20px; /*must be above 20px*/
+    --window-colour: rgba(0, 0, 0, 0.45);
+    --window-blur: 0px;
+    --window-border-radius: 10px;
+    --sidebar-colour: rgb(36, 36, 36);
+}
+
+/*window*/ /*light mode*/
+:root.theme-light {
+    --window-margin: 20px; /*must be above 20px*/
+    --window-colour: rgba(255, 255, 255, 0.6);
+    --window-blur: 5px;
+    --window-border-radius: 10px;
+    --sidebar-colour: rgb(209, 209, 209);
+}
+
+/*roots*/ /*both dark and light*/
+:root {
+    /*glow radial status*/ /*must end in px*/
+    --rs-small-spacing: 0px;
+    --rs-large-spacing: 0px;
+    --rs-medium-spacing: 0px;
+    --rs-small-width: 2.5px;
+    --rs-medium-width: 3.5px;
+    --rs-large-width: 4.5px;
+    --rs-avatar-shape: 50%;
+    --rs-online-color: #1df594;
+    --rs-idle-color: #faa61a;
+    --rs-dnd-color: #f04747;
+    --rs-offline-color: #636b75;
+    --rs-streaming-color: #643da7;
+    --rs-invisible-color: #636b75;
+    --rs-phone-visible: block; /* change it to `none` to disable mobile icon */
+    --rs-phone-color: var(--rs-online-color);
+
+    /* For accent color to take full effect must need to change both */
+    /* kilgamer colours rgb */
+    --accentcolor: 251, 84, 84;
+    /* kilgamer colours hex */
+    --accentcolorcard: #6200ff;
+    --accentcolorV2: #00aeffad;
+    /* settings modal root */
+    --themelightsettingsmodalbackground: rgb(223, 223, 223);
+    --themedarksettingsmodalbackground: rgb(51, 49, 53);
+    --settingsmodalwidth: 960px;
+    --settingsmodalheight: 80vh;
+
+    /* avatar only member list */
+    --memberlist-border-radius: 10px; /* can be in `px`, `rem`, `em` */
+
+    /* placeholder texts/values */
+    /* input fields */
+    --kilgamer-input-field: "Life is so much easier when you just take a moment to chill";
+    /* input fields  when the channel is locked*/
+    --kilgamer-input-field-locked: "Unfortunately, you can't chill in this channel";
+    /* typing indicator: when a single person is typing */
+    --kilgamer-input-typing-indicator-one-person: "is smashing some buttons";
+    /* typing indicator: when more than one person is typing */
+    --kilgamer-input-typing-indicator-many-person: "are smashing some buttons";
+    /* Change the ulr in the `--kilgamer-spotify-control-squid-gif-url` css var to your liking */
+    --kilgamer-spotify-control-squid-gif-url: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/0c/Glow_Squid_BE1.gif";
+    /* adjust the height and width accordingly */
+    --kilgamer-spotify-control-squid-width: 25px;
+    --kilgamer-spotify-control-squid-height: 25px;
+
+}
+
+/*discord transparency*//*roots*/ /*theme dark*/
+.theme-dark {
+    --background-message-hover: rgba(255, 255, 255, 0.055);
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+    --text-normal: #dcddde;
+    --text-muted: #9d9d9d;
+    --channels-default: #8e9297;
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
+    --interactive-muted: #4f545c;
+    --background-primary: transparent;
+    --background-secondary: transparent;
+    --background-tertiary: transparent;
+    --background-accent: rgb(36, 36, 36);
+    --activity-card-background: transparent;
+    --deprecated-panel-background: transparent;
+}
+
+/*discord transparency*//*roots*/ /*theme light*/
+.theme-light {
+    --background-message-hover: rgba(255, 255, 255, 0.055);
+    --header-primary: rgb(0, 0, 0);
+    --header-secondary: #3f3f3f;
+    --text-normal: #303030;
+    --text-muted: #333333;
+    --channels-default: #585b5e;
+    --interactive-normal: #3a3a3a;
+    --interactive-hover: #333333;
+    --interactive-active: rgb(0, 0, 0);
+    --interactive-muted: #4f545c;
+    --background-primary: transparent;
+    --background-secondary: transparent;
+    --background-tertiary: transparent;
+    --background-accent: rgb(27, 27, 27);
+    --activity-card-background: transparent;
+    --deprecated-panel-background: transparent;
+}

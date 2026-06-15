@@ -1,0 +1,106 @@
+/**
+ * @name CHUNK
+ * @author _kilgamer_
+ * @authorLink https://steamcommunity.com/id/_kilgamer_/
+ * @version 1.3.8
+ * @description The theme where calm meets customization.
+ * @updateUrl https://kilgamer-steam.github.io/kilgamer_theme/kilgamer.theme.css
+ * @source https://github.com/kilgamer-steam/kilgamer_theme
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Quicksand&amp;display=swap");
+@import url("https://goldenlys.github.io/WizardUI/base.css");
+@import url("https://goldenlys.github.io/WizardUI/addons/PurpleServerList.css");
+
+:root {
+    /* GENERAL */
+    --Watermark: "- CUTE_Discord";
+    --font: 'Quicksand', 'emoji', sans-serif;
+    --logo: url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/discord_neko.jpg");
+    --sendmessage-text-lines: 8;
+
+    /* COLORS */
+    --Primary: rgb(117 76 205);
+    --Text: rgb(255, 255, 255);
+    --text-link: var(--Primary);
+    --text-shadow: rgb(0 0 0);
+    --Highlighted: rgba(117 76 205 / 50%);
+    --MessageHover: transparent;
+    --Unread: rgb(173, 16, 16);
+
+    /* STATUS */
+    --Online: rgb(0, 255, 6);
+    --Idle: rgb(18, 100, 239);
+    --Unavailable: rgb(228, 15, 0);
+    --Offline: rgb(90, 95, 100);
+    --Streaming: rgb(110, 0, 196);
+
+    /* UI */
+    --grey: rgb(18, 19, 31);
+    --grey5: rgba(18, 19, 31, .75);
+    --darkgrey: rgb(10, 10, 20);
+    --darkgrey5: rgba(10, 10, 20, .75);
+    --ui-success: rgb(69, 208, 34);
+    --ui-warning: rgb(238, 165, 30);
+    --ui-error: rgb(208, 34, 34);
+    --Hover: rgb(18 19 31 / 50%);
+
+    /* BACKGROUNDS */
+    --background: url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/background.jpg");
+    --bg-titlebar: rgba(0, 0, 0, 0.4);
+    --bg-servers: rgba(0, 0, 0, 0.4);
+    --bg-ui: rgba(0, 0, 0, 0.4);
+    --bg-ui-elements: rgba(0, 0, 0, 0.4);
+    --bg-chatbox: rgba(0, 0, 0, 0.3);
+    --bg-sendmessage: rgba(0, 0, 0, 0.4);
+    --bg-members: rgba(0, 0, 0, 0.4);
+    --bg-chat-elements: rgba(0, 0, 0, 0.3);
+    --bg-settings: var(--darkgrey);
+    --bg-colorprofile: rgba(0, 0, 0, 0.3);
+    --bg-alt-message: transparent;
+
+    /* RGB (disabled by default) */
+    --ColorTime: 2s;
+    --Color2: rgb(0, 225, 255);
+    --Color3: rgb(0 0 0);
+    --Color4: rgb(0 0 0);
+    --Color5: rgb(0 0 0);
+    --Color6: rgb(0 0 0);
+    --Color7: rgb(0 0 0);
+    --Color8: rgb(0 0 0);
+    --Color9: rgb(0 0 0);
+    --Color10: rgb(0 0 0);
+
+    /* EMB (disabled by default) */
+    --BackgroundTime: 60s;
+    --EMB_1: url("none");
+    --EMB_2: url("none");
+    --EMB_3: url("none");
+    --EMB_4: url("none");
+    --EMB_5: url("none");
+    --EMB_6: url("none");
+    --EMB_7: url("none");
+    --EMB_8: url("none");
+    --EMB_9: url("none");
+
+    /* MISCS */
+    --ServerSize: 45px;
+    --ServerPills: var(--Primary);
+    --ServerFoldersColor: var(--Primary);
+    --Rounding: 5px;
+    --AvatarRounding: var(--Rounding);
+
+    /* 
+        SHOWN BUTTONS IN THE MESSSAGE BOX
+
+      Choose between 'none' or 'flex'
+      none will disable / hide the button and flex will make it appear again
+    
+    */
+    --Show_Gift_Button: none;
+    --Show_GIF_Button: none;
+    --Show_Sticker_Button: none;
+    --Show_Apps_Button: flex;
+    --Show_Now_Playing_Tab: flex;
+    --Show_Category_Visibility_Icon: flex;
+}

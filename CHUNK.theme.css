@@ -11,12 +11,13 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand&amp;display=swap");
 @import url("https://kilgamer-steam.github.io/kilgamer_theme/resourse/code/base.css");
 @import url("https://kilgamer-steam.github.io/kilgamer_theme/resourse/code/PurpleServerList.css");
+@import url("https://kilgamer-steam.github.io/kilgamer_theme/resourse/code/logo.css");
 
 :root {
     /* GENERAL */
     --Watermark: "- CUTE_Discord";
     --font: 'Quicksand', 'emoji', sans-serif;
-    --logo: url("https://kilgamer-steam.github.io/kilgamer_theme/resourse/logo/discord_ahe1.jpg");
+    --logo: var(--logo1);
     --sendmessage-text-lines: 8;
 
     /* COLORS */

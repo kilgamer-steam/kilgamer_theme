@@ -3,14 +3,14 @@
 
 @font-face {
     font-family: 'emoji';
-    src: url('https://kilgamer-steam.github.io/kilgamer_theme/resourse/code/NotoColorEmoji.ttf') format('truetype');
+    src: url('https://goldenlys.github.io/WizardUI/fonts/NotoColorEmoji.ttf') format('truetype');
 }
 
 :root {
     --version: "2026-37"; /* 0-00 */
-    --currentVersion: "CHUNK" var(--version);
+    --currentVersion: "WizardUI v" var(--version);
     /* MAIN VARIABLES */
-    --Watermark: "- cute discord" var(--version);
+    --Watermark: "- WizardUI v" var(--version);
     --font: 'Inter', 'emoji', sans-serif;
     --Text: rgb(255, 255, 255);
     --Text-muted: rgba(255, 255, 255, .65);

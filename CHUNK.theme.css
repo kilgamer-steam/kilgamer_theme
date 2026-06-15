@@ -4,7 +4,7 @@
  * @authorLink https://steamcommunity.com/id/_kilgamer_/
  * @version 1.3.8
  * @description The theme where calm meets customization.
- * @updateUrl https://kilgamer-steam.github.io/kilgamer_theme/CHUNK.theme.css
+ * @updateUrl https://kilgamer-steam.github.io/kilgamer_theme/kilgamer.theme.css
  * @source https://github.com/kilgamer-steam/kilgamer_theme
 */
 
@@ -16,7 +16,7 @@
     /* GENERAL */
     --Watermark: "- CUTE_Discord";
     --font: 'Quicksand', 'emoji', sans-serif;
-    --logo: url("https://kilgamer-steam.github.io/kilgamer_theme/resourse/logo/discord_ahe1.jpg");
+    --logo: url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/discord_ahe1.jpg");
     --sendmessage-text-lines: 8;
 
     /* COLORS */
@@ -46,7 +46,7 @@
     --Hover: rgb(18 19 31 / 50%);
 
     /* BACKGROUNDS */
-    --background: url("https://kilgamer-steam.github.io/kilgamer_theme/resourse/background/background.png");
+    --background: url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/background.jpg");
     --bg-titlebar: rgba(0, 0, 0, 0.4);
     --bg-servers: rgba(0, 0, 0, 0.4);
     --bg-ui: rgba(0, 0, 0, 0.4);

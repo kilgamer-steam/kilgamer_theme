@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://kilgamer-steam.github.io/kilgamer_theme/resourse/code/all.min.css');
 
+@font-face {
+    font-family: 'emoji';
+    src: url('https://kilgamer-steam.github.io/kilgamer_theme/resourse/code/NotoColorEmoji.ttf') format('truetype');
+}
+
 :root {
     --version: "2026-37"; /* 0-00 */
     --currentVersion: "WizardUI v" var(--version);

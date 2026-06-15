@@ -9,14 +9,14 @@
 */
 
 @import url("https://fonts.googleapis.com/css?family=Quicksand&amp;display=swap");
-@import url("https://kilgamer-steam.github.io/kilgamer_theme/resourse/code/base.css");
+@import url("https://goldenlys.github.io/WizardUI/base.css");
 @import url("https://kilgamer-steam.github.io/kilgamer_theme/resourse/code/PurpleServerList.css");
 
 :root {
     /* GENERAL */
     --Watermark: "- CUTE_Discord";
     --font: 'Quicksand', 'emoji', sans-serif;
-    --logo: url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/discord_ahe1.jpg");
+    --logo: url("https://kilgamer-steam.github.io/kilgamer_theme/resourse/logo/discord_ahe1.jpg");
     --sendmessage-text-lines: 8;
 
     /* COLORS */
@@ -46,7 +46,7 @@
     --Hover: rgb(18 19 31 / 50%);
 
     /* BACKGROUNDS */
-    --background: url("https://kilgamer-steam.github.io/kilgamer_theme/code/resourse/background.jpg");
+    --background: url("https://kilgamer-steam.github.io/kilgamer_theme/resourse/background/background.jpg");
     --bg-titlebar: rgba(0, 0, 0, 0.4);
     --bg-servers: rgba(0, 0, 0, 0.4);
     --bg-ui: rgba(0, 0, 0, 0.4);
